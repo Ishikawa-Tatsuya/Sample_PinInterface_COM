@@ -41,10 +41,15 @@ namespace ComTest
             var iframeWindow = web.Document.Window;
             AppVar com = iframeWindow.DomWindow;
 
-            //インターフェイスを確定させる
+            //IHTMLWindow2にピン止めする
+            //実体は対象アプリ内にある
             var win = com.Pin<IHTMLWindow2>();
+            //IHTMLDocument2で返ってくる
+            //コピーではなく実体は対象アプリ内にある
             var doc = win.document.selection;
-            var type = doc.type;
+            //IHTMLSelectionObjectで返ってくる
+            var sel = win.document.selection;
+            var type = sel.type;
         }
     }
 }
