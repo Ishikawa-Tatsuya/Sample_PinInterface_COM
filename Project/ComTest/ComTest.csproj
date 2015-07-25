@@ -50,11 +50,13 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Windows.Forms" />
-    <Reference Include="VSHTC.Friendly.PinInterface.2.0">
-      <HintPath>..\packages\VSHTC.Friendly.PinInterface.1.2.0\lib\net40\VSHTC.Friendly.PinInterface.2.0.dll</HintPath>
+    <Reference Include="VSHTC.Friendly.PinInterface.2.0, Version=1.3.1.0, Culture=neutral, PublicKeyToken=e026a19fde5207de, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\VSHTC.Friendly.PinInterface.1.3.1\lib\net40\VSHTC.Friendly.PinInterface.2.0.dll</HintPath>
     </Reference>
-    <Reference Include="VSHTC.Friendly.PinInterface.3.5">
-      <HintPath>..\packages\VSHTC.Friendly.PinInterface.1.2.0\lib\net40\VSHTC.Friendly.PinInterface.3.5.dll</HintPath>
+    <Reference Include="VSHTC.Friendly.PinInterface.3.5, Version=1.3.1.0, Culture=neutral, PublicKeyToken=b4649aa9a1f149a3, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\VSHTC.Friendly.PinInterface.1.3.1\lib\net40\VSHTC.Friendly.PinInterface.3.5.dll</HintPath>
     </Reference>
   </ItemGroup>
   <Choose>
